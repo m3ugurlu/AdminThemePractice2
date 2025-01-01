@@ -1,0 +1,10 @@
+.content-wrapper {
+    margin-left: 250px; /* Sidebar genişliği kadar boşluk bırak */
+}
+
+.content-wrapper .content {
+    margin: 0;
+    padding: 0 15px; /* İçerik kenar boşluğu */
+    max-width: 100%;
+    box-sizing: border-box;
+}

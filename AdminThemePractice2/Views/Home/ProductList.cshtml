@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Ürün Listesi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Main Content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Ürünler</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Ürün Adı</th>
+                                    <th>Kategori</th>
+                                    <th>Fiyat</th>
+                                    <th>Stok</th>
+                                    <th>Durum</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Ürün 1</td>
+                                    <td>Elektronik</td>
+                                    <td>$100</td>
+                                    <td>20</td>
+                                    <td><span class="badge bg-success">Aktif</span></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Ürün 2</td>
+                                    <td>Giyim</td>
+                                    <td>$50</td>
+                                    <td>15</td>
+                                    <td><span class="badge bg-danger">Pasif</span></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Ürün 3</td>
+                                    <td>Mobilya</td>
+                                    <td>$200</td>
+                                    <td>5</td>
+                                    <td><span class="badge bg-warning">Stokta Yok</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer clearfix">
+                        <ul class="pagination pagination-sm m-0 float-right">
+                            <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.card -->
+            </div>
+        </div>
+    </div>
+</section>
